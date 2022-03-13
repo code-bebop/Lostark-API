@@ -125,6 +125,7 @@ const characterJewel = () => {
 
     $('#profile-jewel > div > div.jewel__wrap').find('.jewel_btn').toArray().forEach((v) => {
       const jewelData = profile['Equip'][$(v).attr('data-item')];
+
       jewelList.push({
         name: jewelData['Element_000']['value'].replace(/(<([^>]+)>)/ig,""),
         grade: jewelData['Element_001']['value']['leftStr0'].replace(/(<([^>]+)>)/ig,""),
@@ -133,8 +134,45 @@ const characterJewel = () => {
       });
       return;
     });
-    log(jewelList);
   })
 }
 
-characterJewel();
+const characterCard = () => {
+  getHtml().then((html) => {
+    const $ = cheerio.load(html.data);
+    
+    const cardList = [];
+    const cardEffect = [];
+    const profile = JSON.parse($('#profile-ability > script').html().replace('$.Profile = {', '{').replace('};', '}'));
+
+    $('#cardList').find('li').toArray().forEach((v) => {
+      const cardData = profile['Card'][$(v).find('div.card-slot').attr('data-item')];
+
+      cardList.push({
+        name: cardData['Element_000']['value'].replace(/(<([^>]+)>)/ig,""),
+        description: cardData['Element_002']['value'],
+        awake: {
+          count: cardData['Element_001']['value']['awakeCount'],
+          total: cardData['Element_001']['value']['awakeTotal']
+        }
+      });
+      
+    });
+
+    $('#cardSetList').find('li').toArray().forEach((v) => {
+      const title = $(v).find('div.card-effect__title').text();
+      const description = $(v).find('div.card-effect__dsc').text();
+
+      cardEffect.push({ title, description });
+    })
+
+    const card = {
+      'card': cardList,
+      'set': cardEffect
+    };
+
+    log(card);
+  })
+}
+
+characterCard();
