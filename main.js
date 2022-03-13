@@ -115,4 +115,26 @@ const characterInfo = () => {
   .then(log);
 }
 
-characterInfo();
+const characterJewel = () => {
+  getHtml().then((html) => {
+    const $ = cheerio.load(html.data);
+
+    const jewelList = [];
+
+    const profile = JSON.parse($('#profile-ability > script').html().replace('$.Profile = {', '{').replace('};', '}'));
+
+    $('#profile-jewel > div > div.jewel__wrap').find('.jewel_btn').toArray().forEach((v) => {
+      const jewelData = profile['Equip'][$(v).attr('data-item')];
+      jewelList.push({
+        name: jewelData['Element_000']['value'].replace(/(<([^>]+)>)/ig,""),
+        grade: jewelData['Element_001']['value']['leftStr0'].replace(/(<([^>]+)>)/ig,""),
+        tier: jewelData['Element_001']['value']['leftStr2'].replace(/(<([^>]+)>)/ig,""),
+        effect: jewelData['Element_004']['value']['Element_001'].replace(/(<([^>]+)>)/ig,"")
+      });
+      return;
+    });
+    log(jewelList);
+  })
+}
+
+characterJewel();
