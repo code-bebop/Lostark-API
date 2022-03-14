@@ -170,9 +170,82 @@ const characterCard = () => {
       'card': cardList,
       'set': cardEffect
     };
-
-    log(card);
   })
 }
 
-characterCard();
+const characterSkill = () => {
+  getHtml().then((html) => {
+    const $ = cheerio.load(html.data);
+
+    const skillList = [];
+
+    $('#profile-skill > div.profile-skill-battle > div.profile-skill__list').find('div.profile-skill__item').toArray().forEach((v) => {
+      const skillData = JSON.parse($(v).find('a.button--profile-skill').attr('data-skill'));
+      if(skillData['tripodList'].length === 0) {
+        skillList.push({
+          'name': skillData['name'],
+          'level': skillData['level'],
+          'type': skillData['type'].replace(/(<([^>]+)>)/ig,""),
+          'tripod': {}
+        });
+      } else {
+        skillList.push({
+          'name': skillData['name'],
+          'level': skillData['level'],
+          'type': skillData['type'].replace(/(<([^>]+)>)/ig,""),
+          'tripod': {
+            '0': {
+              '0': {
+                'name': skillData['tripodList'][0]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][0]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][0]['featureLevel'],
+              },
+              '1': {
+                'name': skillData['tripodList'][1]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][1]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][1]['featureLevel'],
+              },
+              '2': {
+                'name': skillData['tripodList'][2]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][2]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][2]['featureLevel'],
+              }
+            },
+            '1': {
+              '0': {
+                'name': skillData['tripodList'][3]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][3]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][3]['featureLevel'],
+              },
+              '1': {
+                'name': skillData['tripodList'][4]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][4]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][4]['featureLevel'],
+              },
+              '2': {
+                'name': skillData['tripodList'][5]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][5]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][5]['featureLevel'],
+              }
+            },
+            '2': {
+              '0': {
+                'name': skillData['tripodList'][6]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][6]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][6]['featureLevel'],
+              },
+              '1': {
+                'name': skillData['tripodList'][7]['name'].replace(/(<([^>]+)>)/ig,""),
+                'description': skillData['tripodList'][7]['description'].replace(/(<([^>]+)>)/ig,""),
+                'level': skillData['tripodList'][7]['featureLevel'],
+              }
+            }
+          }
+        })
+      }        
+    })
+    log(skillList);
+  })
+}
+
+characterSkill();
