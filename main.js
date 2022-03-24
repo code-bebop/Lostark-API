@@ -6,13 +6,16 @@ const getHtml = async () => {
   try {
     // return await axios.get(
     //   "https://lostark.game.onstove.com/Profile/Character/%EB%AA%A8%EC%BD%94%EC%BD%94%EB%B3%BC%EB%94%B0%EA%B5%AC%EB%B9%A0%EB%8A%94%EC%86%8C%EB%A6%AC"
-    // );
+    // ); // 내 캐릭
     // return await axios.get(
     //   "https://lostark.game.onstove.com/Profile/Character/%EB%B0%A9%EC%9A%B8%ED%86%A0%EB%A7%88%ED%86%A0%EB%9D%BC%EB%A9%B4"
-    // );
+    // ); // 에스더 무기
+    // return await axios.get(
+    //   "https://lostark.game.onstove.com/Profile/Character/%EC%95%84%EC%9D%B8%EA%B1%B0%EA%B0%80%ED%8A%BC%EB%8D%B0"
+    // ); // 장비 없는
     return await axios.get(
-      "https://lostark.game.onstove.com/Profile/Character/%EC%95%84%EC%9D%B8%EA%B1%B0%EA%B0%80%ED%8A%BC%EB%8D%B0"
-    );
+      "https://lostark.game.onstove.com/Profile/Character/%EB%91%90%EB%9D%BC%EB%94%94%EC%95%84"
+    ); // 존재하지 않는
     
   } catch (error) {
     console.error(error);
@@ -23,6 +26,10 @@ const getHtml = async () => {
 const characterAnother = () => {
   getHtml().then((html) => {
     const $ = cheerio.load(html.data);
+
+    if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+      axios.response
+    }
 
     const characterServer = $("#expand-character-list > strong")
       .text()
@@ -53,6 +60,10 @@ const characterInfo = () => {
   getHtml()
     .then((html) => {
       const $ = cheerio.load(html.data);
+
+      if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+        log("존재하지 않는 닉네임");
+      }
 
       const nickname = $(
         "#lostark-wrapper > div > main > div > div.profile-character-info > span.profile-character-info__name"
@@ -182,6 +193,10 @@ const characterJewel = () => {
   getHtml().then((html) => {
     const $ = cheerio.load(html.data);
 
+    if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+      log("존재하지 않는 닉네임");
+    }
+
     const jewelList = [];
 
     const profile = JSON.parse(
@@ -220,6 +235,10 @@ const characterJewel = () => {
 const characterCard = () => {
   getHtml().then((html) => {
     const $ = cheerio.load(html.data);
+
+    if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+      log("존재하지 않는 닉네임");
+    }
 
     const cardList = [];
     const cardEffect = [];
@@ -267,6 +286,10 @@ const characterCard = () => {
 const characterSkill = () => {
   getHtml().then((html) => {
     const $ = cheerio.load(html.data);
+
+    if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+      log("존재하지 않는 닉네임");
+    }
 
     const skillList = [];
 
@@ -384,9 +407,13 @@ const characterSkill = () => {
   });
 };
 
-const chracterEquipment = () => {
+const characterEquipment = () => {
   getHtml().then((html) => {
     const $ = cheerio.load(html.data);
+
+    if ($("#lostark-wrapper > div > main > div > div.profile-ingame > div")) {
+      log("존재하지 않는 닉네임");
+    }
 
     const equipmentList = [];
     const profile = JSON.parse(
@@ -551,4 +578,4 @@ const chracterEquipment = () => {
   });
 };
 
-chracterEquipment();
+characterAnother();
