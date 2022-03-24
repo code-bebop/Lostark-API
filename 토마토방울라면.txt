@@ -1,0 +1,4601 @@
+
+		$.Profile = {
+  "Card": {
+    "C7fc416c_000": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>샨디</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_00_4.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "7인의 에스더 중 한 명. 자유분방한 성격으로, 제자와 함께 세상을 유랑하고 있다. "
+      }
+    },
+    "C7fc416c_001": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>니나브</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_02_6.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "에스더의 일원인 라제니스. 만물과 소통할 수 있는 능력을 지니고 있다."
+      }
+    },
+    "C7fc416c_002": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>카단</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_02_7.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "모든 것이 비밀에 감춰져 있는 에스더의 일원. 최초의 가디언 슬레이어로 불린다."
+      }
+    },
+    "C7fc416c_003": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>바훈투르</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_02_1.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "에스더 갈라투르의 후계자. 유쾌하고 허세 많지만, 의리 넘치는 성격."
+      }
+    },
+    "C7fc416c_004": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>웨이</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_01_0.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "에스더의 이름을 이어받은 무인. 스승을 죽인 불사귀 도철을 제압하여, 세상을 구하기 위해 나선다."
+      }
+    },
+    "C7fc416c_005": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<FONT COLOR='#F99200'>실리안</FONT>"
+      },
+      "Element_001": {
+        "type": "Card",
+        "value": {
+          "awakeCount": 5,
+          "awakeTotal": 5,
+          "cardStack": "",
+          "iconData": {
+            "iconPath": "EFUI_IconAtlas/Card_Legend/Card_Legend_00_1.png"
+          },
+          "isBookMark": false,
+          "tierGrade": 5
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "루테란의 왕자. 강직하고 올곧은 성품을 지니고 있다. "
+      }
+    }
+  },
+  "CardSet": {
+    "CardSetEffect_000": {
+      "EffectIndex": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "Effect_000": {
+        "desc": "암속성 피해 감소 +10.00%",
+        "title": "세상을 구하는 빛 2세트"
+      },
+      "Effect_001": {
+        "desc": "암속성 피해 감소 +10.00%",
+        "title": "세상을 구하는 빛 4세트"
+      },
+      "Effect_002": {
+        "desc": "암속성 피해 감소 +10.00%",
+        "title": "세상을 구하는 빛 6세트"
+      },
+      "Effect_003": {
+        "desc": "공격 속성을 성속성으로 변환",
+        "title": "세상을 구하는 빛 6세트 (12각성합계)"
+      },
+      "Effect_004": {
+        "desc": "성속성 피해 +7.00%",
+        "title": "세상을 구하는 빛 6세트 (18각성합계)"
+      },
+      "Effect_005": {
+        "desc": "성속성 피해 +8.00%",
+        "title": "세상을 구하는 빛 6세트 (30각성합계)"
+      }
+    }
+  },
+  "Engrave": {
+    "G7fc416c_000": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "저주받은 인형"
+      },
+      "Element_001": {
+        "type": "EngraveSkillTitle",
+        "value": {
+          "forceMiddleText": "",
+          "leftText": "<FONT COLOR='#F5ECCE'><img src='emoticon_tooltip_engrave_point' width='20' height='20' vspace='-7'></img>각인 활성 포인트 +12</FONT>",
+          "name": "일반",
+          "rightText": "",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/Buff/Buff_237.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "장착 시, 캐릭터에 <FONT COLOR='#FFFFAC'>저주받은 인형</FONT> 각인의 각인 활성 포인트를 <FONT COLOR='#FFD200'>12</FONT>만큼 부여합니다."
+      },
+      "Element_003": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<font color='#A9D0F5'>레벨 별 효과보기</font>",
+          "Element_001": "<font color='#686660'>레벨 1 (활성도 5) - 공격력이 3% 증가하지만, 받는 생명력 회복 효과가 25% 감소한다. (자연 회복 제외)</font><BR><font color='#686660'>레벨 2 (활성도 10) - 공격력이 8% 증가하지만, 받는 생명력 회복 효과가 25% 감소한다. (자연 회복 제외)</font><BR><font color='#686660'>레벨 3 (활성도 15) - 공격력이 16% 증가하지만, 받는 생명력 회복 효과가 25% 감소한다. (자연 회복 제외)</font>"
+        }
+      },
+      "Element_004": {
+        "type": "BlinkLine",
+        "value": 8
+      }
+    },
+    "G7fc416c_001": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "점화"
+      },
+      "Element_001": {
+        "type": "EngraveSkillTitle",
+        "value": {
+          "forceMiddleText": "소서리스 전용",
+          "leftText": "<FONT COLOR='#F5ECCE'><img src='emoticon_tooltip_engrave_point' width='20' height='20' vspace='-7'></img>각인 활성 포인트 +12</FONT>",
+          "name": "직업",
+          "rightText": "",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/Ability/Ability_240.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "장착 시, 캐릭터에 <FONT COLOR='#FFFFAC'>점화</FONT> 각인의 각인 활성 포인트를 <FONT COLOR='#FFD200'>12</FONT>만큼 부여합니다."
+      },
+      "Element_003": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<font color='#A9D0F5'>레벨 별 효과보기</font>",
+          "Element_001": "<font color='#686660'>레벨 1 (활성도 5) - 마력 해방 발동 시 각성기 및 이동기를 제외한 스킬의 남은 재사용 대기시간이 50%로 감소하며, 마력 해방 중 치명타 적중률이 10%, 치명타 피해가 20% 증가한다.</font><BR><font color='#686660'>레벨 2 (활성도 10) - 마력 해방 발동 시 각성기 및 이동기를 제외한 스킬의 남은 재사용 대기시간이 50%로 감소하며, 마력 해방 중 치명타 적중률이 17%, 치명타 피해가 35% 증가한다.</font><BR><font color='#686660'>레벨 3 (활성도 15) - 마력 해방 발동 시 각성기 및 이동기를 제외한 스킬의 남은 재사용 대기시간이 50%로 감소하며, 마력 해방 중 치명타 적중률이 25%, 치명타 피해가 50% 증가한다.</font>"
+        }
+      },
+      "Element_004": {
+        "type": "BlinkLine",
+        "value": 8
+      }
+    }
+  },
+  "Equip": {
+    "E7fc416cGem_000": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>천벌</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_001": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 홍염의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_65.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>익스플로전</FONT> 재사용 대기시간 20.00% 감소"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_002": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>익스플로전</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_003": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 홍염의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_65.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>천벌</FONT> 재사용 대기시간 20.00% 감소"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_004": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>아이스 애로우</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_005": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>종말의 날</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_006": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 홍염의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_65.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>종말의 날</FONT> 재사용 대기시간 20.00% 감소"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_007": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_008": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 홍염의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_65.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 재사용 대기시간 20.00% 감소"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_009": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 멸화의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_55.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>혹한의 부름</FONT> 피해 40.00% 증가"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416cGem_010": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>10레벨 홍염의 보석</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 보석</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Use/Use_9_65.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "Lv.10",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "보석 레벨 10"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>혹한의 부름</FONT> 재사용 대기시간 20.00% 감소"
+        }
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_000": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#3CF2E6'>+8 게네브</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#3CF2E6'>에스더 롱 스태프</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1645 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 7,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_165.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "무기 공격력 +64519"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "추가 피해 +30.00%"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "특정 시간 이후 공격 적중 시 확률에 따라 '<FONT COLOR='#33ffcc'>기사의 긍지</FONT>'가 활성화 된다. 활성화 확률은 시간에 따라 점차 증가한다.<BR>사용 시 <FONT COLOR='#ffff99'>10</FONT>초 동안 자신의 힘, 민첩, 지능이 <FONT COLOR='#99ff99'>145983</FONT>증가한다.",
+                "pointType": 0
+              },
+              "Element_001": {
+                "bPoint": true,
+                "contentStr": "특정 시간 이후 공격 적중 시 확률에 따라 '<FONT COLOR='#33ffcc'>여명의 빛</FONT>'이 활성화 된다. 활성화 확률은 시간에 따라 점차 증가한다.<BR>사용 시 <FONT COLOR='#ffff99'>20</FONT>초 동안 <FONT COLOR='#ffff99'>16</FONT>m 이내의 파티원에게 용기를 복돋아 자신 및 파티원의 공격력을 <FONT COLOR='#99ff99'>3946</FONT> 증가시킨다.",
+                "pointType": 0
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>에스더 효과</FONT><FONT COLOR='#f7d290'> [실리안]</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>아이스 애로우</FONT>] 얼음 송곳 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>아이스 애로우</FONT>] 꿰뚫는 일격 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>아이스 애로우</FONT>] 빠른 준비 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_009": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과</FONT>",
+          "Element_001": "장착 중인 장갑과 동일한 세트 효과가 적용됩니다."
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[퀘스트] 에스더 : 갈라투르의 의지</font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>142 / 162</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_001": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+25 피어난 악몽의 공명 머리장식</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 머리 방어구</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1615 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_154.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "물리 방어력 +5346<BR>마법 방어력 +5940<BR>지능 +34244<BR>체력 +4982"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "생명 활성력 +1400"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>종말의 날</FONT>] 발화 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>종말의 날</FONT>] 소행성 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>종말의 날</FONT>] 마력 증폭 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+          "Element_001": "악몽 <FONT COLOR='#FFD200'>Lv.2</FONT>"
+        }
+      },
+      "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "<font color='#aaaaaa'><font size='12'>악몽 (롱 스태프)</font></font>"
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (머리 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (상의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_003": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (하의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_004": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (장갑)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_005": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (어깨 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>악몽</font></font>"
+          },
+          "Element_001": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나 소모량이 <FONT COLOR='#99FF99'>50%</FONT> 감소하고, 마나를 소모하는 스킬의 피해가 <FONT COLOR='#99FF99'>15%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_002": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나를 보유하고 있는 클래스가 각성기 사용 시 '마나 중독' 효과를 획득한다.<BR>현재 마나량이 <FONT COLOR='#99FF99'>30%</FONT> 이하에서 스킬 사용 시 '마나 중독' 효과가 제거 되고 '끝없는 마나' 효과로 변경된다.<BR>'끝없는 마나' 상태에서 현재 마나량이 <FONT COLOR='#99FF99'>100%</FONT>가 될 시 해당 효과가 제거 되고 '마나 중독' 효과로 변경된다. 두 효과는 동시에 적용되지 않는다.<BR>'마나 중독' : 추가 피해가 <FONT COLOR='#99FF99'>18%</FONT> 증가 하지만 마나를 소모하는 스킬 사용 시 최대 마나량의 <FONT COLOR='#ff9999'>7%</FONT>가 추가로 소모된다.<BR>'끝없는 마나' : 매 초 마다 최대 마나량의 <FONT COLOR='#99FF99'>3%</FONT>가 회복되며 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>22%</FONT> 감소하고 공격 및 이동속도가 <FONT COLOR='#99FF99'>12%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_003": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#aaaaaa'>'마나 중독' 효과 시 적에게 주는 피해가 <FONT COLOR='#99FF99'>18%</FONT> 추가 증가한다.<BR>'끝없는 마나' 효과 시 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>18%</FONT> 추가 감소하고, 공격 및 이동속도가 <FONT COLOR='#99FF99'>3%</FONT> 추가 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#aaaaaa'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2</font></font>]</font></font>"
+          }
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] </font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>40 / 44</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_002": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+25 피어난 악몽의 공명 상의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 상의</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1615 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_150.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "물리 방어력 +7128<BR>마법 방어력 +6534<BR>지능 +27395<BR>체력 +6643"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "생명 활성력 +1400"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>블레이즈</FONT>] 약점 포착 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>천벌</FONT>] 방전 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>천벌</FONT>] 마력 증폭 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+          "Element_001": "악몽 <FONT COLOR='#FFD200'>Lv.2</FONT>"
+        }
+      },
+      "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "<font color='#aaaaaa'><font size='12'>악몽 (롱 스태프)</font></font>"
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (머리 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (상의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_003": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (하의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_004": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (장갑)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_005": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (어깨 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>악몽</font></font>"
+          },
+          "Element_001": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나 소모량이 <FONT COLOR='#99FF99'>50%</FONT> 감소하고, 마나를 소모하는 스킬의 피해가 <FONT COLOR='#99FF99'>15%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_002": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나를 보유하고 있는 클래스가 각성기 사용 시 '마나 중독' 효과를 획득한다.<BR>현재 마나량이 <FONT COLOR='#99FF99'>30%</FONT> 이하에서 스킬 사용 시 '마나 중독' 효과가 제거 되고 '끝없는 마나' 효과로 변경된다.<BR>'끝없는 마나' 상태에서 현재 마나량이 <FONT COLOR='#99FF99'>100%</FONT>가 될 시 해당 효과가 제거 되고 '마나 중독' 효과로 변경된다. 두 효과는 동시에 적용되지 않는다.<BR>'마나 중독' : 추가 피해가 <FONT COLOR='#99FF99'>18%</FONT> 증가 하지만 마나를 소모하는 스킬 사용 시 최대 마나량의 <FONT COLOR='#ff9999'>7%</FONT>가 추가로 소모된다.<BR>'끝없는 마나' : 매 초 마다 최대 마나량의 <FONT COLOR='#99FF99'>3%</FONT>가 회복되며 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>22%</FONT> 감소하고 공격 및 이동속도가 <FONT COLOR='#99FF99'>12%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_003": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#aaaaaa'>'마나 중독' 효과 시 적에게 주는 피해가 <FONT COLOR='#99FF99'>18%</FONT> 추가 증가한다.<BR>'끝없는 마나' 효과 시 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>18%</FONT> 추가 감소하고, 공격 및 이동속도가 <FONT COLOR='#99FF99'>3%</FONT> 추가 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#aaaaaa'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2</font></font>]</font></font>"
+          }
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] </font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>51 / 56</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_003": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+25 피어난 악몽의 공명 하의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 하의</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1615 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_151.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "물리 방어력 +6534<BR>마법 방어력 +7128<BR>지능 +29597<BR>체력 +5647"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "생명 활성력 +1400"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT>] 안정된 크리스탈 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT>] 빠른 준비 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT>] 강화된 일격 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+          "Element_001": "악몽 <FONT COLOR='#FFD200'>Lv.2</FONT>"
+        }
+      },
+      "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "<font color='#aaaaaa'><font size='12'>악몽 (롱 스태프)</font></font>"
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (머리 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (상의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_003": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (하의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_004": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (장갑)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_005": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (어깨 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>악몽</font></font>"
+          },
+          "Element_001": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나 소모량이 <FONT COLOR='#99FF99'>50%</FONT> 감소하고, 마나를 소모하는 스킬의 피해가 <FONT COLOR='#99FF99'>15%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_002": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나를 보유하고 있는 클래스가 각성기 사용 시 '마나 중독' 효과를 획득한다.<BR>현재 마나량이 <FONT COLOR='#99FF99'>30%</FONT> 이하에서 스킬 사용 시 '마나 중독' 효과가 제거 되고 '끝없는 마나' 효과로 변경된다.<BR>'끝없는 마나' 상태에서 현재 마나량이 <FONT COLOR='#99FF99'>100%</FONT>가 될 시 해당 효과가 제거 되고 '마나 중독' 효과로 변경된다. 두 효과는 동시에 적용되지 않는다.<BR>'마나 중독' : 추가 피해가 <FONT COLOR='#99FF99'>18%</FONT> 증가 하지만 마나를 소모하는 스킬 사용 시 최대 마나량의 <FONT COLOR='#ff9999'>7%</FONT>가 추가로 소모된다.<BR>'끝없는 마나' : 매 초 마다 최대 마나량의 <FONT COLOR='#99FF99'>3%</FONT>가 회복되며 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>22%</FONT> 감소하고 공격 및 이동속도가 <FONT COLOR='#99FF99'>12%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_003": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#aaaaaa'>'마나 중독' 효과 시 적에게 주는 피해가 <FONT COLOR='#99FF99'>18%</FONT> 추가 증가한다.<BR>'끝없는 마나' 효과 시 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>18%</FONT> 추가 감소하고, 공격 및 이동속도가 <FONT COLOR='#99FF99'>3%</FONT> 추가 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#aaaaaa'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2</font></font>]</font></font>"
+          }
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] </font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>46 / 51</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_004": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+25 피어난 악몽의 공명 장갑</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 장갑</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1615 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_153.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "물리 방어력 +4752<BR>마법 방어력 +4752<BR>지능 +41093<BR>체력 +3322"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "생명 활성력 +1400"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>서릿발</FONT>] 오한 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>종말의 날</FONT>] 화염 지대 <FONT COLOR='#73dc04'>Lv +3</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT>] 안정된 크리스탈 <FONT COLOR='#73dc04'>Lv +3</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+          "Element_001": "악몽 <FONT COLOR='#FFD200'>Lv.2</FONT>"
+        }
+      },
+      "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "<font color='#aaaaaa'><font size='12'>악몽 (롱 스태프)</font></font>"
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (머리 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (상의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_003": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (하의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_004": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (장갑)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_005": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (어깨 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>악몽</font></font>"
+          },
+          "Element_001": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나 소모량이 <FONT COLOR='#99FF99'>50%</FONT> 감소하고, 마나를 소모하는 스킬의 피해가 <FONT COLOR='#99FF99'>15%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_002": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나를 보유하고 있는 클래스가 각성기 사용 시 '마나 중독' 효과를 획득한다.<BR>현재 마나량이 <FONT COLOR='#99FF99'>30%</FONT> 이하에서 스킬 사용 시 '마나 중독' 효과가 제거 되고 '끝없는 마나' 효과로 변경된다.<BR>'끝없는 마나' 상태에서 현재 마나량이 <FONT COLOR='#99FF99'>100%</FONT>가 될 시 해당 효과가 제거 되고 '마나 중독' 효과로 변경된다. 두 효과는 동시에 적용되지 않는다.<BR>'마나 중독' : 추가 피해가 <FONT COLOR='#99FF99'>18%</FONT> 증가 하지만 마나를 소모하는 스킬 사용 시 최대 마나량의 <FONT COLOR='#ff9999'>7%</FONT>가 추가로 소모된다.<BR>'끝없는 마나' : 매 초 마다 최대 마나량의 <FONT COLOR='#99FF99'>3%</FONT>가 회복되며 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>22%</FONT> 감소하고 공격 및 이동속도가 <FONT COLOR='#99FF99'>12%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_003": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#aaaaaa'>'마나 중독' 효과 시 적에게 주는 피해가 <FONT COLOR='#99FF99'>18%</FONT> 추가 증가한다.<BR>'끝없는 마나' 효과 시 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>18%</FONT> 추가 감소하고, 공격 및 이동속도가 <FONT COLOR='#99FF99'>3%</FONT> 추가 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#aaaaaa'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2</font></font>]</font></font>"
+          }
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] </font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>35 / 39</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_005": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>+25 피어난 악몽의 공명 어깨장식</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 어깨 방어구</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 레벨 1615 (티어 3)</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/MEM_Item/MEM_Item_152.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "물리 방어력 +5940<BR>마법 방어력 +5346<BR>지능 +36445<BR>체력 +4318"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "생명 활성력 +1400"
+        }
+      },
+      "Element_007": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>혹한의 부름</FONT>] 오한 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>혹한의 부름</FONT>] 불완전한 지배 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "[소서리스] [<FONT COLOR='#FFD200'>혹한의 부름</FONT>] 강화된 일격 <FONT COLOR='#73dc04'>Lv +4</FONT>",
+                "pointType": 1
+              }
+            },
+            "topStr": "<FONT COLOR='#A9D0F5'>트라이포드 효과</FONT>"
+          }
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세트 효과 레벨</FONT>",
+          "Element_001": "악몽 <FONT COLOR='#FFD200'>Lv.2</FONT>"
+        }
+      },
+      "Element_009": {
+        "type": "IndentStringGroup",
+        "value": {
+          "Element_000": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": false,
+                "contentStr": "<font color='#aaaaaa'><font size='12'>악몽 (롱 스태프)</font></font>"
+              },
+              "Element_001": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (머리 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_002": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (상의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_003": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (하의)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_004": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (장갑)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              },
+              "Element_005": {
+                "bPoint": false,
+                "contentStr": "<font size='12'>악몽 (어깨 방어구)</font> [<FONT COLOR='#FFD200'>Lv.2</FONT>]"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>악몽</font></font>"
+          },
+          "Element_001": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나 소모량이 <FONT COLOR='#99FF99'>50%</FONT> 감소하고, 마나를 소모하는 스킬의 피해가 <FONT COLOR='#99FF99'>15%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>2 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_002": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#ffffff'>마나를 보유하고 있는 클래스가 각성기 사용 시 '마나 중독' 효과를 획득한다.<BR>현재 마나량이 <FONT COLOR='#99FF99'>30%</FONT> 이하에서 스킬 사용 시 '마나 중독' 효과가 제거 되고 '끝없는 마나' 효과로 변경된다.<BR>'끝없는 마나' 상태에서 현재 마나량이 <FONT COLOR='#99FF99'>100%</FONT>가 될 시 해당 효과가 제거 되고 '마나 중독' 효과로 변경된다. 두 효과는 동시에 적용되지 않는다.<BR>'마나 중독' : 추가 피해가 <FONT COLOR='#99FF99'>18%</FONT> 증가 하지만 마나를 소모하는 스킬 사용 시 최대 마나량의 <FONT COLOR='#ff9999'>7%</FONT>가 추가로 소모된다.<BR>'끝없는 마나' : 매 초 마다 최대 마나량의 <FONT COLOR='#99FF99'>3%</FONT>가 회복되며 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>22%</FONT> 감소하고 공격 및 이동속도가 <FONT COLOR='#99FF99'>12%</FONT> 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#91fe02'>4 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / <FONT COLOR='#FFD200'>Lv.2</FONT></font></font>]</font></font>"
+          },
+          "Element_003": {
+            "contentStr": {
+              "Element_000": {
+                "bPoint": true,
+                "contentStr": "<font size='12'><font color='#aaaaaa'>'마나 중독' 효과 시 적에게 주는 피해가 <FONT COLOR='#99FF99'>18%</FONT> 추가 증가한다.<BR>'끝없는 마나' 효과 시 스킬 재사용 대기시간이 <FONT COLOR='#99FF99'>18%</FONT> 추가 감소하고, 공격 및 이동속도가 <FONT COLOR='#99FF99'>3%</FONT> 추가 증가한다.</font></font>"
+              }
+            },
+            "topStr": "<font size='14'><font color='#aaaaaa'>6 세트 효과<BR>[<font size='14'><font color='#aaaaaa'>Lv.1 / Lv.2</font></font>]</font></font>"
+          }
+        }
+      },
+      "Element_010": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>전승 재료로 사용 불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[세트 업그레이드] </font>"
+      },
+      "Element_012": {
+        "type": "ShowMeTheMoney",
+        "value": "<FONT SIZE='12'><FONT COLOR='#FFFFFF'>내구도 <FONT COLOR='#FFFFFF'>39 / 42</FONT></FONT></FONT>|"
+      }
+    },
+    "E7fc416c_006": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>공허한 운명의 목걸이</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 목걸이</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": 93,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_204.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR>거래 <FONT COLOR='#FFD200'>2</FONT>회 가능<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "<FONT COLOR='#686660'>힘 +12546</FONT><BR><FONT COLOR='#686660'>민첩 +12546</FONT><BR>지능 +12546<BR>체력 +3308"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "치명 +488<BR>특화 +499"
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>속전속결</FONT>] 활성도 +6<BR>[<FONT COLOR='#FFFFAC'>저주받은 인형</FONT>] 활성도 +3<BR>[<FONT COLOR='#FE2E2E'>공격속도 감소</FONT>] 활성도 +1"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[카오스 던전] 베른 남부</font>"
+      }
+    },
+    "E7fc416c_007": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>참혹한 파멸의 귀걸이</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 귀걸이</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_113.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR>거래 <FONT COLOR='#FFD200'>2</FONT>회 가능<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "<FONT COLOR='#686660'>힘 +9758</FONT><BR><FONT COLOR='#686660'>민첩 +9758</FONT><BR>지능 +9758<BR>체력 +2363"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "특화 +300"
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>타격의 대가</FONT>] 활성도 +6<BR>[<FONT COLOR='#FFFFAC'>원한</FONT>] 활성도 +3<BR>[<FONT COLOR='#FE2E2E'>방어력 감소</FONT>] 활성도 +2"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[군단장 레이드] 몽환군단장 아브렐슈드</font>"
+      }
+    },
+    "E7fc416c_008": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>참혹한 종말의 귀걸이</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 귀걸이</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_113.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR>거래 <FONT COLOR='#FFD200'>2</FONT>회 가능<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "<FONT COLOR='#686660'>힘 +9758</FONT><BR><FONT COLOR='#686660'>민첩 +9758</FONT><BR>지능 +9758<BR>체력 +2363"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "특화 +300"
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>원한</FONT>] 활성도 +6<BR>[<FONT COLOR='#FFFFAC'>아드레날린</FONT>] 활성도 +3<BR>[<FONT COLOR='#FE2E2E'>공격력 감소</FONT>] 활성도 +2"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[군단장 레이드] 몽환군단장 아브렐슈드</font>"
+      }
+    },
+    "E7fc416c_009": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>참혹한 파멸의 반지</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 반지</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_20.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR>거래 <FONT COLOR='#FFD200'>2</FONT>회 가능<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "<FONT COLOR='#686660'>힘 +9061</FONT><BR><FONT COLOR='#686660'>민첩 +9061</FONT><BR>지능 +9061<BR>체력 +1890"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "특화 +200"
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>원한</FONT>] 활성도 +6<BR>[<FONT COLOR='#FFFFAC'>속전속결</FONT>] 활성도 +3<BR>[<FONT COLOR='#FE2E2E'>방어력 감소</FONT>] 활성도 +1"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[군단장 레이드] 몽환군단장 아브렐슈드</font>"
+      }
+    },
+    "E7fc416c_010": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>참혹한 종말의 반지</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 반지</FONT></FONT>",
+          "leftStr1": "<FONT SIZE='14'>품질</FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": 100,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_20.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR>거래 <FONT COLOR='#FFD200'>2</FONT>회 가능<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "<FONT COLOR='#686660'>힘 +9061</FONT><BR><FONT COLOR='#686660'>민첩 +9061</FONT><BR>지능 +9061<BR>체력 +1890"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "특화 +200"
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>점화</FONT>] 활성도 +3<BR>[<FONT COLOR='#FFFFAC'>속전속결</FONT>] 활성도 +6<BR>[<FONT COLOR='#FE2E2E'>공격속도 감소</FONT>] 활성도 +3"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[군단장 레이드] 몽환군단장 아브렐슈드</font>"
+      }
+    },
+    "E7fc416c_011": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>고고한 비상의 돌</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 어빌리티 스톤</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Ability/Ability_22.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1415</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_004": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "체력 +15254"
+        }
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>세공 단계 보너스</FONT>",
+          "Element_001": "체력 +2289"
+        }
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>무작위 각인 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#FFFFAC'>아드레날린</FONT>] 활성도 +8<BR>[<FONT COLOR='#FFFFAC'>타격의 대가</FONT>] 활성도 +9<BR>[<FONT COLOR='#FE2E2E'>이동속도 감소</FONT>] 활성도 +2"
+        }
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#E2C87A'><FONT SIZE='12'>푸른 기운과 붉은 기운이 희미하게 뒤섞여 신묘한 느낌이 난다. 자세히 보고 싶지만 더 만졌다가는 부서져 버릴 것 같다.<br><br><FONT COLOR='#FFFFFFAC'>어빌리티 스톤 세공사에게 세공 완료 후 장착 가능합니다.</FONT></FONT></FONT>"
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT></FONT>"
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[카오스 던전] 베른 남부</font><BR><Font color='#5FD3F1'>[가디언 토벌] 데스칼루다</font><BR><Font color='#5FD3F1'>[가디언 토벌] 쿤겔라니움</font><BR><Font color='#5FD3F1'>그 외에 획득처가 더 존재합니다.</FONT>"
+      }
+    },
+    "E7fc416c_012": {
+      "AvatarAttribute": {
+        "IsInner": true,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>신비로운 도약 롱 스태프</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 롱 스태프 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_4705.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +2.00%"
+        }
+      },
+      "Element_006": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 5<BR>&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_013": {
+      "AvatarAttribute": {
+        "IsInner": true,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>신비로운 도약 머리</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 머리 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_4699.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +2.00%"
+        }
+      },
+      "Element_006": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 5<BR>&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_014": {
+      "AvatarAttribute": {
+        "IsInner": true,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>신비로운 도약 상의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 상의 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_4700.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +2.00%"
+        }
+      },
+      "Element_006": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 10<BR>&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_015": {
+      "AvatarAttribute": {
+        "IsInner": true,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>신비로운 도약 하의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 하의 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_4701.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +2.00%"
+        }
+      },
+      "Element_006": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 5<BR>&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 10<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_016": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>파도의 꿈 악기</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 악기 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/shop_icon_4272.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 10<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_017": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>편안한 프레피 안경</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 얼굴1 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_5450.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_charm 매력 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#E2C87A'><FONT SIZE='12'><FONT COLOR='#FFFFFFAC'>착용할 경우, 설정한 외형 중 장식(귀)이 인간형으로 변경됩니다.</FONT></FONT></FONT>"
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_018": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>빛나는 마녀의 축제 얼굴2</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 얼굴2 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_2982.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 </FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_courage 담력 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_019": {
+      "AvatarAttribute": {
+        "IsInner": true,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>성장하는 도약 롱 스태프</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 롱 스태프 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_4706.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>소서리스 전용</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='14'><P align='center'>아래 능력들이 적용되지 않는 상태입니다.<BR><font color='#ffcc00'>(덧입기 슬롯에 착용 중)</font></p></FONT>"
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +2.00%"
+        }
+      },
+      "Element_007": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 5<BR>&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_020": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>환상의 장난 머리</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 머리 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_5013.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='14'><P align='center'>아래 능력들이 적용되지 않는 상태입니다.<BR><font color='#ffcc00'>(덧입기 슬롯에 착용 중)</font></p></FONT>"
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +1.00%"
+        }
+      },
+      "Element_007": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_charm 매력 : 10<BR>&tdc_kind 친절 : 5<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_021": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>편안한 프레피 상의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 상의 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_5452.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='14'><P align='center'>아래 능력들이 적용되지 않는 상태입니다.<BR><font color='#ffcc00'>(덧입기 슬롯에 착용 중)</font></p></FONT>"
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +1.00%"
+        }
+      },
+      "Element_007": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_charm 매력 : 5<BR>&tdc_kind 친절 : 15<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_022": {
+      "AvatarAttribute": {
+        "IsInner": false,
+        "IsSet": false
+      },
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#ce43fc'>편안한 프레피 하의</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#ce43fc'>영웅 하의 아바타</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 3,
+            "iconPath": "EFUI_IconAtlas/Shop_icon/Shop_icon_5454.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>마법사계열</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 <BR>거래 <FONT COLOR='#FFD200'>3</FONT>회 가능</FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|거래가능"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='14'><P align='center'>아래 능력들이 적용되지 않는 상태입니다.<BR><font color='#ffcc00'>(덧입기 슬롯에 착용 중)</font></p></FONT>"
+      },
+      "Element_006": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>기본 효과</FONT>",
+          "Element_001": "지능 +1.00%"
+        }
+      },
+      "Element_007": {
+        "type": "SymbolString",
+        "value": {
+          "contentStr": "&tdc_smart 지성 : 5<BR>&tdc_courage 담력 : 15<BR><BR>",
+          "titleStr": "<FONT COLOR='#A9D0F5'>성향</FONT>"
+        }
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT></FONT>"
+      }
+    },
+    "E7fc416c_026": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#E3C7A1'>찬란한 영웅의 팔찌</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#E3C7A1'>고대 팔찌</FONT></FONT>",
+          "leftStr2": "<FONT SIZE='14'>아이템 티어 3</FONT>",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 6,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_304.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>귀속됨<BR><FONT COLOR='#C24B46'>거래 제한 아이템 레벨</FONT> 1540</FONT>"
+      },
+      "Element_003": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#FFD200'>단일 장착 가능</FONT>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>팔찌 효과</FONT>",
+          "Element_001": "<img src='emoticon_tooltip_bracelet_locked' vspace='-5'></img> 특화 +119<BR><img src='emoticon_tooltip_bracelet_locked' vspace='-5'></img> 치명 +120<BR><img src='emoticon_tooltip_bracelet_locked' vspace='-5'></img> [<FONT COLOR='#f9f7d0'>망치</FONT>] 몬스터에게 공격 적중 시 8초 동안 '망치' 효과를 획득한다.<BR>'강철 쐐기' 효과를 보유 시 치명타 피해가 8% 추가 증가한다.<BR>망치 : 공격 적중 시 치명타 피해량이 <FONT COLOR='#99ff99'>8%</FONT> 증가한다. <FONT COLOR='#969696'>(60레벨 초과 몬스터에게는 효과 감소)</FONT><BR><img src='emoticon_tooltip_bracelet_locked' vspace='-5'></img> [<FONT COLOR='#f9f7d0'>반전</FONT>] 생명력이 <FONT COLOR='#99ff99'>25%</FONT> 이하일 경우 몬스터에게 피격 시 10초 후 체력 반전이 일어난다. (재사용 대기 시간 900초) <FONT COLOR='#969696'>(60레벨 초과 몬스터에게는 효과 감소)</FONT><BR><img src='emoticon_tooltip_bracelet_changeable' width='20' height='20' vspace='-6'></img>[<FONT COLOR='#f9f7d0'>열정</FONT>] 자신의 생명력이 40% 이상일 경우 적에게 공격 적중 시 3초 동안 '열정' 효과를 획득한다.<BR>'냉정' 효과를 보유 중 일 때 '열정' 효과가 1% 추가 증가한다.<BR>열정 : 몬스터에게 주는 피해가 <FONT COLOR='#99ff99'>3.5%</FONT> 증가한다. <FONT COLOR='#969696'>(60레벨 초과 몬스터에게는 효과 감소)</FONT>"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "효과 부여 <FONT COLOR='#FFD200'>1</FONT>회 가능"
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[카오스 던전] 베른 남부</font><BR><Font color='#5FD3F1'>[가디언 토벌] 하누마탄</font><BR><Font color='#5FD3F1'>[군단장 레이드] 몽환군단장 아브렐슈드</font>"
+      }
+    },
+    "E7fc416c_027": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#FA5D00'>특제 성운 나침반</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#FA5D00'>유물 나침반</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 5,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_312.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 50</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 </FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "모든 선박의 최종 내구도 수리 비용 +20.00% 감소<BR>섬에서 이동 속도 +10.00%<BR>선박 통상 운항 속도(노트) +4.0"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#E2C87A'><FONT SIZE='12'>바다 위의 폭풍우마저도 이겨낼 수 있다고 전해지는 전설의 나침반.<br>과거, 폭풍의 왕이라 불리우는 해적이 사용했다고 한다.</FONT></FONT>"
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[제작] 외로운 섬 오페르 - 바욤</font>"
+      }
+    },
+    "E7fc416c_028": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>영롱한 정령석 부적</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 부적</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_307.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 50</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 </FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "모든 생활 활동 가능 레벨 +3<BR>모든 생활 스킬의 기본 보상 추가 획득률 +25.00%<BR>모든 생활 마스터리 스킬 레벨 +3"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#E2C87A'><FONT SIZE='12'>마력이 깃든 정령석으로 만들어진 부적.<br>가지고 있으면 정령의 가호가 깃든다고 전해진다.</FONT></FONT>"
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[대도시] 가공사 - 제작</font>"
+      }
+    },
+    "E7fc416c_029": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "<P ALIGN='CENTER'><FONT COLOR='#F99200'>황금 용사의 문장</FONT></P>"
+      },
+      "Element_001": {
+        "type": "ItemTitle",
+        "value": {
+          "leftStr0": "<FONT SIZE='12'><FONT COLOR='#F99200'>전설 휘장</FONT></FONT>",
+          "leftStr2": "",
+          "qualityValue": -1,
+          "rightStr0": "<FONT SIZE='12'><FONT COLOR='#FFD200'>장착중</FONT></FONT>",
+          "slotData": {
+            "advBookIcon": 0,
+            "friendship": 0,
+            "iconGrade": 4,
+            "iconPath": "EFUI_IconAtlas/Acc/Acc_319.png",
+            "imagePath": "",
+            "islandIcon": 0,
+            "rtString": "",
+            "seal": false,
+            "temporary": 0,
+            "town": 0,
+            "trash": 0
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT SIZE='12'><FONT COLOR='#808080'>장착 가능 레벨</FONT> 50</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'>원정대 귀속됨 </FONT>"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "|<font color='#C24B46'>거래 불가</font>"
+      },
+      "Element_005": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>추가 효과</FONT>",
+          "Element_001": "모험가에게 피격 시 '단단함' 효과 획득<BR> 단단함: 8초 동안 받는 피해 10% 감소 (재사용 대기시간 40초)<BR>모험가에게 피격 시 '조급함' 효과 획득<BR> 조급함: 5초 동안 이동 속도 3% 증가, 스킬 재사용 대기시간 4% 감소, 최대 3회 중첩 가능<BR>피격이상 및 상태이상 중 모험가에게 피격 시 '기사회생' 효과 획득<BR> 기사회생: 5초 동안 기상기 재사용 대기시간 15% 감소 (재사용 대기시간 30초)"
+        }
+      },
+      "Element_006": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#E2C87A'><FONT SIZE='12'>찬란한 황금으로 제작된 투구 형태의 문장.<br>빛나는 용사를 기리는 의미에서 제작되었다.</FONT></FONT>"
+      },
+      "Element_007": {
+        "type": "SingleTextBox",
+        "value": "<FONT SIZE='12'><FONT COLOR='#C24B46'>판매불가</FONT>, <FONT COLOR='#C24B46'>파괴불가</FONT>, <FONT COLOR='#C24B46'>분해불가</FONT>, <FONT COLOR='#C24B46'>품질 업그레이드 불가</FONT></FONT>"
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "<Font color='#5FD3F1'>[대도시] 증명의 전장 - 제작</font>"
+      }
+    }
+  },
+  "GemSkillEffect": [
+    {
+      "EquipGemSlotIndex": 4,
+      "SkillDesc": "<FONT COLOR='#FFD200'>아이스 애로우</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_8.png",
+      "SkillName": "아이스 애로우",
+      "SkillSlotIndex": 12
+    },
+    {
+      "EquipGemSlotIndex": 7,
+      "SkillDesc": "<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_18.png",
+      "SkillName": "엘리멘탈 리액트",
+      "SkillSlotIndex": 11
+    },
+    {
+      "EquipGemSlotIndex": 8,
+      "SkillDesc": "<FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 재사용 대기시간 20.00% 감소",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_18.png",
+      "SkillName": "엘리멘탈 리액트",
+      "SkillSlotIndex": 11
+    },
+    {
+      "EquipGemSlotIndex": 0,
+      "SkillDesc": "<FONT COLOR='#FFD200'>천벌</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_14.png",
+      "SkillName": "천벌",
+      "SkillSlotIndex": 7
+    },
+    {
+      "EquipGemSlotIndex": 3,
+      "SkillDesc": "<FONT COLOR='#FFD200'>천벌</FONT> 재사용 대기시간 20.00% 감소",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_14.png",
+      "SkillName": "천벌",
+      "SkillSlotIndex": 7
+    },
+    {
+      "EquipGemSlotIndex": 2,
+      "SkillDesc": "<FONT COLOR='#FFD200'>익스플로전</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_5.png",
+      "SkillName": "익스플로전",
+      "SkillSlotIndex": 13
+    },
+    {
+      "EquipGemSlotIndex": 1,
+      "SkillDesc": "<FONT COLOR='#FFD200'>익스플로전</FONT> 재사용 대기시간 20.00% 감소",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_5.png",
+      "SkillName": "익스플로전",
+      "SkillSlotIndex": 13
+    },
+    {
+      "EquipGemSlotIndex": 9,
+      "SkillDesc": "<FONT COLOR='#FFD200'>혹한의 부름</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_9.png",
+      "SkillName": "혹한의 부름",
+      "SkillSlotIndex": 3
+    },
+    {
+      "EquipGemSlotIndex": 10,
+      "SkillDesc": "<FONT COLOR='#FFD200'>혹한의 부름</FONT> 재사용 대기시간 20.00% 감소",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_9.png",
+      "SkillName": "혹한의 부름",
+      "SkillSlotIndex": 3
+    },
+    {
+      "EquipGemSlotIndex": 5,
+      "SkillDesc": "<FONT COLOR='#FFD200'>종말의 날</FONT> 피해 40.00% 증가",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_6.png",
+      "SkillName": "종말의 날",
+      "SkillSlotIndex": 15
+    },
+    {
+      "EquipGemSlotIndex": 6,
+      "SkillDesc": "<FONT COLOR='#FFD200'>종말의 날</FONT> 재사용 대기시간 20.00% 감소",
+      "SkillIcon": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_6.png",
+      "SkillName": "종말의 날",
+      "SkillSlotIndex": 15
+    }
+  ],
+  "Skill": {
+    "S7fc416c_000": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "블레이즈"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 10초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FF0000'>[화염 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_3.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 11"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 382 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 직사각형의 불길을 일으켜 <FONT COLOR='#00ccff'>328615</FONT>의 [화] 속성 피해를 주며 적을 경직시키고, <FONT COLOR='#ffff99'>5</FONT>초간, 매초 <FONT COLOR='#00ccff'>65782</FONT>의 [화] 속성 피해를 준다.</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 대상이 자신 및 파티원에게 받는 피해가 <FONT COLOR='#ffff99'>8.0</FONT>초간 <FONT COLOR='#99ff99'>6.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>피해 증폭</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_97.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 1 (최대)</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>불길이 생성된 후 좌, 우로 펼쳐지고, 화염 지대를 <FONT COLOR='#ffff99'>3.0</FONT>초간 생성시키며, 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>불꽃 확장</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_53.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>96.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>약점 포착</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_33.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#F99200'>출혈</FONT>] 스킬 적중 시 적을 6초간 '출혈' 상태로 만듦"
+        }
+      },
+      "Element_008": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 12"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 60"
+      },
+      "Element_011": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>6"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "마나 382 소모"
+      },
+      "Element_013": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방으로 직사각형의 불길을 일으켜 <FONT COLOR='#00ccff'>344918</FONT>의 [화] 속성 피해를 주며 적을 경직시키고, <FONT COLOR='#ffff99'>5</FONT>초간, 매초 <FONT COLOR='#00ccff'>69023</FONT>의 [화] 속성 피해를 준다.</FONT></FONT>"
+      },
+      "Element_014": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_001": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "에너지 방출"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 6초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F6F6F6'>[일반 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#20EDFE'>콤보</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_15.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 61 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방에 적을 관통하는 응축된 마력탄을 발사하여 <FONT COLOR='#00ccff'>86679</FONT>의 피해를 주고 추가 스킬 키 입력 시 재차 발사하여 <FONT COLOR='#00ccff'>130019</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 10"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 82 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방에 적을 관통하는 응축된 마력탄을 발사하여 <FONT COLOR='#00ccff'>95265</FONT>의 피해를 주고 추가 스킬 키 입력 시 재차 발사하여 <FONT COLOR='#00ccff'>142849</FONT>의 피해를 준다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_002": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "라이트닝 볼텍스"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 12초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#A566FF'>[번개 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_12.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 80 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>12m</FONT> 이내 마우스 위치에 구체 형태로 이루어진 번개의 힘을 <FONT COLOR='#ffff99'>3</FONT>초 동안 생성하여 적에게 총 <FONT COLOR='#00ccff'>419260</FONT>의 [뇌] 속성 피해를 주며 공격에 적중된 적을 중심부로 끌어모은 후 추가로 <FONT COLOR='#00ccff'>104777</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 10"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 108 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>12m</FONT> 이내 마우스 위치에 구체 형태로 이루어진 번개의 힘을 <FONT COLOR='#ffff99'>3</FONT>초 동안 생성하여 적에게 총 <FONT COLOR='#00ccff'>460662</FONT>의 [뇌] 속성 피해를 주며 공격에 적중된 적을 중심부로 끌어모은 후 추가로 <FONT COLOR='#00ccff'>115152</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_003": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "혹한의 부름"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 24초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#489CFF'>[냉기 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_9.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 569 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>12m</FONT> 이내 마우스 위치에 한파를 일으킨다. 최대 <FONT COLOR='#ffff99'>4</FONT>초 동안 <FONT COLOR='#ffff99'>9</FONT>회에 걸쳐 적에게 총 <FONT COLOR='#00ccff'>1477415</FONT> 의 [수] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 아이덴티티 게이지 획득량이 <FONT COLOR='#99ff99'>45.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>깨달음</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_37.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>지점이며, 일반 조작으로 변경된다. 지면에서 즉시 원하는 지점에 <FONT COLOR='#ffff99'>2.0</FONT>초간 냉기의 기운을 생성시키고, 적에게 주는 총 피해가 <FONT COLOR='#99ff99'>40.3%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>불완전한 지배</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_53.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>강화된 일격</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_1.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#F99200'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 40% 증가"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>혹한의 부름</FONT> 피해 40.00% 증가 <BR>[소서리스] <FONT COLOR='#FFD200'>혹한의 부름</FONT> 재사용 대기시간 20.00% 감소 "
+        }
+      }
+    },
+    "S7fc416c_004": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "돌풍"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 14초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F6F6F6'>[일반 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_17.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 85 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방에 강력한 회오리 바람을 일으켜 적에게 <FONT COLOR='#ffff99'>3</FONT>회에 걸쳐 <FONT COLOR='#00ccff'>214064</FONT>의 피해를 준 뒤 ,<FONT COLOR='#00ccff'>214064</FONT>의 피해를 주며 밀쳐낸다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 헤드 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>카운터 : 가능</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#F99200'>심판</FONT>] 스킬 적중 시 40% 확률로 자신의 '단죄' 상태를 제거하여 6초간 전투자원 회복량 증가 및 스킬 재사용 대기시간 감소"
+        }
+      },
+      "Element_008": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_009": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 10"
+      },
+      "Element_011": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "마나 116 소모"
+      },
+      "Element_013": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>전방에 강력한 회오리 바람을 일으켜 적에게 <FONT COLOR='#ffff99'>3</FONT>회에 걸쳐 <FONT COLOR='#00ccff'>235225</FONT>의 피해를 준 뒤 ,<FONT COLOR='#00ccff'>235225</FONT>의 피해를 주며 밀쳐낸다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 헤드 어택</FONT></FONT>"
+      },
+      "Element_014": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_005": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "숭고한 해일"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 18초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#489CFF'>[냉기 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_11.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 96 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>물의 기운을 모아 거대한 해일이 생성되어 전방의 적들을 덮어 버리며 적에게 <FONT COLOR='#00ccff'>292381</FONT>, <FONT COLOR='#00ccff'>292381</FONT>의 [수] 속성 피해를 준다. 적이 공중에 뜬 상태일 때 공격 적중 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 10"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 130 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>물의 기운을 모아 거대한 해일이 생성되어 전방의 적들을 덮어 버리며 적에게 <FONT COLOR='#00ccff'>321310</FONT>, <FONT COLOR='#00ccff'>321310</FONT>의 [수] 속성 피해를 준다. 적이 공중에 뜬 상태일 때 공격 적중 시 다시 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_006": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "인페르노"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 18초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FF0000'>[화염 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_4.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 96 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>14m</FONT> 이내 마우스 위치에 불기둥을 생성하여 적에게 <FONT COLOR='#00ccff'>622726</FONT>의 [화] 속성 피해를 입히고 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 12"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 130 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>14m</FONT> 이내 마우스 위치에 불기둥을 생성하여 적에게 <FONT COLOR='#00ccff'>684265</FONT>의 [화] 속성 피해를 입히고 공중에 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_007": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "천벌"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 28초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#A566FF'>[번개 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FEA3F2'>캐스팅</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_14.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 614 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>16m</FONT> 이내 마우스 위치에 거대한 낙뢰를 떨어뜨려 적에게 <FONT COLOR='#00ccff'>2042739</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>50.0%</FONT> 감소한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>정신 강화</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_34.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 1</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>마지막 번개가 떨어진 지점에서 반경 <FONT COLOR='#99ff99'>6.5m</FONT> 범위에 추가로 번개 폭발이 일어나 적을 공격한다. 적에게 주는 총 피해가 <FONT COLOR='#99ff99'>46.4%</FONT> 증가하고, 추가 번개 폭발에 적중된 적에게 <FONT COLOR='#ffff99'>3.0</FONT>초간 매 초 마다 <FONT COLOR='#00ccff'>124608</FONT>의 전격 피해를 준다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>방전</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_81.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>90.0%</FONT> 증가하고, 마력 강화 상태이거나 마력 해방 상태일 경우 적에게 주는 피해가 추가로 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>마력 증폭</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_130.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#F99200'>단죄</FONT>] 스킬 적중 시 40% 확률로 자신에게 3초간 지속되는 '단죄' 상태 부여하며 해당 상태 일 때 '심판' 을 통해 추가 효과를 발동"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>천벌</FONT> 피해 40.00% 증가 <BR>[소서리스] <FONT COLOR='#FFD200'>천벌</FONT> 재사용 대기시간 20.00% 감소 "
+        }
+      }
+    },
+    "S7fc416c_008": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "리버스 그래비티"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 16초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F6F6F6'>[일반 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_16.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 91 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>자신의 발 밑에 대지 균열 마법진을 일으킨다. 균열 마법진은 적을 높게 띄우며 <FONT COLOR='#00ccff'>203267</FONT>의 피해를 준 후 내려찍으며 <FONT COLOR='#00ccff'>474255</FONT>의 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 16"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 123 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>자신의 발 밑에 대지 균열 마법진을 일으킨다. 균열 마법진은 적을 높게 띄우며 <FONT COLOR='#00ccff'>223355</FONT>의 피해를 준 후 내려찍으며 <FONT COLOR='#00ccff'>521125</FONT>의 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 하</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_009": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "서릿발"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 11초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#489CFF'>[냉기 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_7.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 77 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>냉기의 힘을 지면에 내려찍어 부채꼴 범위 안에 존재하는 적에게 <FONT COLOR='#00ccff'>383977</FONT>의 [수] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 18"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 104 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>냉기의 힘을 지면에 내려찍어 부채꼴 범위 안에 존재하는 적에게 <FONT COLOR='#00ccff'>421902</FONT>의 [수] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>공격 타입 : 백 어택</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_010": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "라이트닝 볼트"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 24초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#A566FF'>[번개 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#40E15F'>홀딩</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_13.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 110 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>지정된 방향으로 번개를 발사한다. 홀딩 도중 <FONT COLOR='#ffff99'>50</FONT>도 방향 전환이 가능하며, 최대 <FONT COLOR='#ffff99'>2</FONT>초 동안 <FONT COLOR='#ffff99'>5</FONT>회에 걸쳐 직선 상의 적에게 총 <FONT COLOR='#00ccff'>735261</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 20"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 149 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>지정된 방향으로 번개를 발사한다. 홀딩 도중 <FONT COLOR='#ffff99'>50</FONT>도 방향 전환이 가능하며, 최대 <FONT COLOR='#ffff99'>2</FONT>초 동안 <FONT COLOR='#ffff99'>5</FONT>회에 걸쳐 직선 상의 적에게 총 <FONT COLOR='#00ccff'>807843</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_011": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "엘리멘탈 리액트"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 24초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#F6F6F6'>[일반 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_18.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 569 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>12m</FONT> 이내 마우스 위치에 마력 크리스탈을 생성한다. 크리스탈은 단계 별로 진화하며, 총 <FONT COLOR='#ffff99'>3</FONT>단계까지 진화한 후 균열되어 폭발하여 적에게 <FONT COLOR='#00ccff'>1290483</FONT>의 피해를 입히고 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 1</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>재사용 대기 시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>빠른 준비</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_56.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>적에게 주는 피해가 <FONT COLOR='#99ff99'>65.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>강화된 일격</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_1.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'><FONT COLOR='#ffff99'>3</FONT>단계로 완성되어 있는 크리스탈을 생성한다. 폭발 범위가 <FONT COLOR='#ff9999'>20.0%</FONT> 감소하지만, 적에게 주는 피해가 <FONT COLOR='#99ff99'>70.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>안정된 크리스탈</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_81.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#ce43fc'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 30% 증가"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 피해 40.00% 증가 <BR>[소서리스] <FONT COLOR='#FFD200'>엘리멘탈 리액트</FONT> 재사용 대기시간 20.00% 감소 "
+        }
+      }
+    },
+    "S7fc416c_012": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "아이스 애로우"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 22초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#489CFF'>[냉기 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFD200'>지점</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_8.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 545 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>14m</FONT> 이내 마우스 위치에 다수의 얼음 화살을 생성하여 총 <FONT COLOR='#00ccff'>1240811</FONT>의 [수] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>재사용 대기 시간이 <FONT COLOR='#99ff99'>8.0</FONT>초 감소한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>빠른 준비</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_56.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 적의 모든 방어력을 <FONT COLOR='#99ff99'>78.0%</FONT> 무시한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>꿰뚫는 일격</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_3.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>고드름이 더욱 날카로워져 적에게 주는 피해가 <FONT COLOR='#99ff99'>95.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>얼음 송곳</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_53.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#ce43fc'>풍요</FONT>] 스킬 적중 시 아이덴티티 게이지 획득량 30% 증가"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>아이스 애로우</FONT> 피해 40.00% 증가 "
+        }
+      }
+    },
+    "S7fc416c_013": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "익스플로전"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 28초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FF0000'>[화염 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FEA3F2'>캐스팅</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_5.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 614 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>주문을 외워 화염 투사체를 발사한다. 적과 충돌 시 폭발하여 <FONT COLOR='#00ccff'>1970412</FONT>의 [화] 속성 피해를 입히고 적을 높게 띄운다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>마나 소모량이 <FONT COLOR='#99ff99'>50.0%</FONT> 감소한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>정신 강화</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_34.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 1</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>피격이상 면역인 적에게 공격 적중 시 주는 피해가 <FONT COLOR='#99ff99'>60.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>약점 포착</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_33.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>80.0%</FONT> 증가하고, 마력 강화 상태이거나 마력 해방 상태일 경우 적에게 주는 피해가 추가로 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>마력 증폭</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_130.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#ce43fc'>질풍</FONT>] 스킬 시전 속도가 12% 증가"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>익스플로전</FONT> 재사용 대기시간 20.00% 감소 <BR>[소서리스] <FONT COLOR='#FFD200'>익스플로전</FONT> 피해 40.00% 증가 "
+        }
+      }
+    },
+    "S7fc416c_014": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "엘레기안의 손길"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 40초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#489CFF'>[냉기 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#F80EC6'>토글</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_10.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 14 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>몸에 마나의 가호를 둘러 피해를 받을 때마다 소모될 생명력 비율의 <FONT COLOR='#99ff99'>330%</FONT> 만큼 마나가 비율로 소모된다. 엘레기안의 손길을 유지하는 동안 마나 회복량이 <FONT COLOR='#ff9999'>30%</FONT> 만큼 감소하며 피격 시 <FONT COLOR='#ffff99'>3</FONT>초간 마나가 회복되지 않는다. 현재 마나량이 <FONT COLOR='#ff9999'>20%</FONT> 이하일 경우 엘레기안의 손길이 소멸한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 1 트라이포드 스킬 레벨 4에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_001": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 2 트라이포드 스킬 레벨 7에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          },
+          "Element_002": {
+            "desc": "<FONT COLOR='#AAAAAA'>티어 3 트라이포드 스킬 레벨 10에 개방</FONT>",
+            "lock": true,
+            "name": "",
+            "tier": ""
+          }
+        }
+      },
+      "Element_007": {
+        "type": "BlinkLineStart",
+        "value": true
+      },
+      "Element_008": {
+        "type": "SingleTextBox",
+        "value": "다음 스킬 레벨 2"
+      },
+      "Element_009": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 레벨</FONT> 36"
+      },
+      "Element_010": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#808080'>필요 스킬 포인트 </FONT>1"
+      },
+      "Element_011": {
+        "type": "SingleTextBox",
+        "value": "마나 19 소모"
+      },
+      "Element_012": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>몸에 마나의 가호를 둘러 피해를 받을 때마다 소모될 생명력 비율의 <FONT COLOR='#99ff99'>320%</FONT> 만큼 마나가 비율로 소모된다. 엘레기안의 손길을 유지하는 동안 마나 회복량이 <FONT COLOR='#ff9999'>30%</FONT> 만큼 감소하며 피격 시 <FONT COLOR='#ffff99'>3</FONT>초간 마나가 회복되지 않는다. 현재 마나량이 <FONT COLOR='#ff9999'>20%</FONT> 이하일 경우 엘레기안의 손길이 소멸한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_013": {
+        "type": "BlinkLineEnd",
+        "value": true
+      }
+    },
+    "S7fc416c_015": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "종말의 날"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 32초</FONT>",
+          "level": "<FONT SIZE='12'><FONT COLOR='#B7DEE8'><FONT COLOR='#FF0000'>[화염 스킬]</FONT></FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FEA3F2'>캐스팅</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_6.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 12"
+      },
+      "Element_004": {
+        "type": "MultiTextBox",
+        "value": "마나 657 소모|"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>14m</FONT> 이내 마우스 위치에 거대한 운석을 떨어뜨려, <FONT COLOR='#00ccff'>2378519</FONT>의 [화] 속성 피해를 입히고 적을 날려버린다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 경직 면역</FONT></FONT>"
+      },
+      "Element_006": {
+        "type": "TripodSkillCustom",
+        "value": {
+          "Element_000": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 적에게 <FONT COLOR='#ffff99'>5.0</FONT>초간 화상 상태를 부여하여 매초 <FONT COLOR='#00ccff'>204643</FONT>의 피해를 입힌다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>발화</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_1_13.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_001": {
+            "desc": "<font color='#FFFDE7'>강화된 운석을 떨어뜨려 적에게 주는 피해가 <FONT COLOR='#99ff99'>50.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>소행성</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_2_1.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          },
+          "Element_002": {
+            "desc": "<font color='#FFFDE7'>공격 적중 시 적에게 주는 피해가 <FONT COLOR='#99ff99'>90.0%</FONT> 증가하고, 마력 강화 상태이거나 마력 해방 상태일 경우 적에게 주는 피해가 추가로 <FONT COLOR='#99ff99'>20.0%</FONT> 증가한다.</font>",
+            "lock": false,
+            "name": "<font color='#FFBB63'>마력 증폭</font>",
+            "slotData": {
+              "iconGrade": 10,
+              "iconPath": "EFUI_IconAtlas/Tripod_Tier/Tripod_Tier_3_130.png",
+              "imagePath": ""
+            },
+            "tier": "<font color='#FFD200'>레벨 5 (최대)</font>"
+          }
+        }
+      },
+      "Element_007": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>스킬 룬 효과</FONT>",
+          "Element_001": "[<FONT COLOR='#F99200'>질풍</FONT>] 스킬 시전 속도가 14% 증가"
+        }
+      },
+      "Element_008": {
+        "type": "ItemPartBox",
+        "value": {
+          "Element_000": "<FONT COLOR='#A9D0F5'>보석 효과</FONT>",
+          "Element_001": "[소서리스] <FONT COLOR='#FFD200'>종말의 날</FONT> 피해 40.00% 증가 <BR>[소서리스] <FONT COLOR='#FFD200'>종말의 날</FONT> 재사용 대기시간 20.00% 감소 "
+        }
+      }
+    },
+    "S7fc416c_016": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "엔비스카의 권능"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 5분</FONT>",
+          "level": "<FONT SIZE='14'><FONT COLOR='#E73517'>각성기</FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_21.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1 (최대)"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "각성 : 혼돈의 조각 1개 소모"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'>자신의 지팡이에서 번개 에너지를 방출하여 <FONT COLOR='#00ccff'>1142377</FONT>의 피해를 입히고, 방출된 번개 에너지를 다시 중심부로 끌어모으면서 <FONT COLOR='#00ccff'>2284753</FONT>, <FONT COLOR='#00ccff'>2284753</FONT>, <FONT COLOR='#00ccff'>2284497</FONT>의 [뇌] 속성 피해를 주며 적을 한 곳으로 모은 후 거대한 폭발을 일으켜 <FONT COLOR='#00ccff'>3426772</FONT>의 [뇌] 속성 피해를 입힌다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>부위 파괴 : 레벨 2</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>"
+      }
+    },
+    "S7fc416c_017": {
+      "Element_000": {
+        "type": "NameTagBox",
+        "value": "종말의 부름"
+      },
+      "Element_001": {
+        "type": "CommonSkillTitle",
+        "value": {
+          "leftText": "<FONT SIZE='12'>재사용 대기시간 5분</FONT>",
+          "level": "<FONT SIZE='14'><FONT COLOR='#E73517'>각성기</FONT></FONT>",
+          "middleText": "",
+          "name": "<FONT SIZE='12'><FONT SIZE='14' COLOR='#FFFFAC'>일반</FONT></FONT>",
+          "slotData": {
+            "iconGrade": 0,
+            "iconPath": "EFUI_IconAtlas/SCS_Skill/SCS_Skill_01_22.png",
+            "imagePath": ""
+          }
+        }
+      },
+      "Element_002": {
+        "type": "MultiTextBox",
+        "value": "|<FONT COLOR='#3C78FF'>PvE</FONT>"
+      },
+      "Element_003": {
+        "type": "SingleTextBox",
+        "value": "스킬 레벨 1 (최대)"
+      },
+      "Element_004": {
+        "type": "SingleTextBox",
+        "value": "각성 : 혼돈의 조각 1개 소모"
+      },
+      "Element_005": {
+        "type": "SingleTextBox",
+        "value": "<FONT COLOR='#efefdf'><FONT SIZE='11'><FONT COLOR='#ffff99'>18m</FONT> 이내로 <FONT COLOR='#ffff99'>8</FONT>초간 랜덤하게 운석 파편을 떨어뜨린다. 땅에 떨어진 운석 파편은 <FONT COLOR='#99ff99'>6m</FONT>의 공격 범위를 가지며, <FONT COLOR='#00ccff'>1489833</FONT>의 [화] 속성 피해를 입히고 적을 넘어뜨리며, 적이 시드 이하일 경우 적에게 주는 피해가 <FONT COLOR='#99ff99'>200%</FONT> 증가한다.</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>무력화 : 중상</FONT></FONT><BR><FONT SIZE='12'><FONT COLOR='#EEA839'>슈퍼아머 : 피격이상 면역, 상태이상 면역</FONT></FONT>"
+      }
+    }
+  }
+};
