@@ -390,23 +390,20 @@ api.get("/skill", async (ctx) => {
     $("#profile-skill > div.profile-skill-battle > div.profile-skill__list")
 		.find("div.profile-skill__item")
 		.toArray()
-		.forEach((v, i) => {
+		.forEach((v, skillIndex) => {
 			const skillData = JSON.parse(
 				$(v).find("a.button--profile-skill").attr("data-skill")
 			);
 			
-			log(skillData);
-			
 			if (skillData["tripodList"].length === 0) {
-				skillList[i] = {
+				skillList[skillIndex] = {
 					name: skillData["name"],
 					level: skillData["level"],
 					type: skillData["type"].replace(/(<([^>]+)>)/gi, ""),
 					image: skillData["slotIcon"],
-					tripod: {},
 				};
 			} else {
-				skillList[i] = {
+				skillList[skillIndex] = {
 					name: skillData["name"],
 					level: skillData["level"],
 					type: skillData["type"].replace(/(<([^>]+)>)/gi, ""),
@@ -467,6 +464,28 @@ api.get("/skill", async (ctx) => {
 							},
 						},
 					},
+					selectedTripodList: {},
+					rune: {},
+				};
+			}
+			
+			skillData["selectedTripodTier"].forEach((tripodTier, tripodIndex) => {
+				if (!skillList[skillIndex]["tripod"]) {
+					return;
+				}
+				if (tripodTier === 0) {
+					return;
+				}
+				skillList[skillIndex]["selectedTripodList"][tripodIndex] = skillList[skillIndex]["tripod"][tripodIndex][tripodTier - 1];
+			});
+			
+			if (skillData["rune"]) {
+				const runeData = JSON.parse(skillData["rune"]["tooltip"]);
+				
+				skillList[skillIndex]["rune"] = {
+					name: runeData["Element_000"]["value"].replace(/(<([^>]+)>)/gi, ""),
+					grade: runeData["Element_001"]["value"]["leftStr0"].replace(/(<([^>]+)>)/gi, ""),
+					description: runeData["Element_002"]["value"]["Element_001"],
 				};
 			}
 		});
@@ -512,7 +531,6 @@ api.get("/equipment", async (ctx) => {
 		.find("div")
 		.toArray()
 		.forEach((v) => {
-			log($(v).html());
 			const equipmentData = profile["Equip"][$(v).attr("data-item")];
 			if (!equipmentData) {
 				equipmentList.push({});
@@ -532,6 +550,7 @@ api.get("/equipment", async (ctx) => {
 			const equipmentLevel = equipmentData["Element_001"]["value"]["leftStr2"].replace(/(<([^>]+)>)/gi, "");
 			const equipmentQuality =equipmentData["Element_001"]["value"]["qualityValue"];
 			const equipmentOption = {};
+			const equipmentSet = {};
 
 			if (equipmentData["Element_001"]["value"]["leftStr0"].includes("팔찌")) { // 팔찌
 				equipmentOption["bracelet Effects"] = {};
@@ -584,7 +603,42 @@ api.get("/equipment", async (ctx) => {
 							level: tripodLevel
 						}
 					});
-				} else if (equipmentData["Element_008"]["value"]["Element_000"] && equipmentData["Element_008"]["value"]["Element_000"]["topStr"].includes("트라이포드 효과")) {
+					
+					if (equipmentData["Element_009"]["value"] && equipmentData["Element_009"]["value"]["Element_000"] && equipmentData["Element_009"]["value"]["Element_000"]["contentStr"]) { // 세트 효과 있는 장비
+						const setItemEnableList = [];
+						const setItemDisableList = [];
+						const setEffectList = [];
+						
+						const equipmentSetItemList = equipmentData["Element_009"]["value"]["Element_000"]["contentStr"];
+						Object.keys(equipmentSetItemList).forEach((setItemIndex, i) => {
+							if (equipmentSetItemList[setItemIndex]["contentStr"].includes("FFD200")) {
+								setItemEnableList.push(equipmentSetItemList[setItemIndex]["contentStr"].replace(/(<([^>]+)>)/gi, ""));
+							} else {
+								setItemDisableList.push(equipmentSetItemList[setItemIndex]["contentStr"].replace(/(<([^>]+)>)/gi, ""));
+							}
+						});
+						equipmentSet["setItemEnableList"] = setItemEnableList;
+						equipmentSet["setItemDisableList"] = setItemDisableList;
+						
+						for (const property in equipmentData["Element_009"]["value"]) {
+							if (property === "Element_000") continue;
+							
+							const setEffect = equipmentData["Element_009"]["value"][property]["contentStr"]["Element_000"]["contentStr"].replace(/(<([^>]+)>)/gi, "");
+							const setEffectLevel = equipmentData["Element_009"]["value"][property]["topStr"].replace(/(<([^>]+)>)/gi, "");
+							let setEnable = false;
+							if (equipmentData["Element_009"]["value"][property]["topStr"].includes("FFD200")) {
+								setEnable = true;
+							}
+							
+							setEffectList.push({
+								setEffect,
+								setEffectLevel,
+								setEnable
+							});
+						}
+						equipmentSet["setEffect"] = setEffectList;
+					}
+				} else if (equipmentData["Element_008"]["value"]["Element_000"] && equipmentData["Element_008"]["value"]["Element_000"]["topStr"].includes("트라이포드 효과")) { // 25 재련 이하 장비
 					equipmentOption["tripod"] = {};
 					const equipmentTripodList = equipmentData["Element_008"]["value"]["Element_000"]["contentStr"];
 					Object.keys(equipmentTripodList).forEach((tripodIndex, i) => {
@@ -595,9 +649,44 @@ api.get("/equipment", async (ctx) => {
 							level: tripodLevel
 						}
 					});
+					
+					if (equipmentData["Element_010"]["value"] && equipmentData["Element_010"]["value"]["Element_000"] && equipmentData["Element_010"]["value"]["Element_000"]["contentStr"]) { // 세트 효과 있는 장비
+						const setItemEnableList = [];
+						const setItemDisableList = [];
+						const setEffectList = [];
+						
+						const equipmentSetItemList = equipmentData["Element_010"]["value"]["Element_000"]["contentStr"];
+						Object.keys(equipmentSetItemList).forEach((setItemIndex, i) => {
+							if (equipmentSetItemList[setItemIndex]["contentStr"].includes("FFD200")) {
+								setItemEnableList.push(equipmentSetItemList[setItemIndex]["contentStr"].replace(/(<([^>]+)>)/gi, ""));
+							} else {
+								setItemDisableList.push(equipmentSetItemList[setItemIndex]["contentStr"].replace(/(<([^>]+)>)/gi, ""));
+							}
+						});
+						equipmentSet["setItemEnableList"] = setItemEnableList;
+						equipmentSet["setItemDisableList"] = setItemDisableList;
+						
+						for (const property in equipmentData["Element_010"]["value"]) {
+							if (property === "Element_000") continue;
+							
+							const setEffect = equipmentData["Element_010"]["value"][property]["contentStr"]["Element_000"]["contentStr"].replace(/(<([^>]+)>)/gi, "");
+							const setEffectLevel = equipmentData["Element_010"]["value"][property]["topStr"].replace(/(<([^>]+)>)/gi, "");
+							let setEnable = false;
+							if (equipmentData["Element_010"]["value"][property]["topStr"].includes("FFD200")) {
+								setEnable = true;
+							}
+							
+							setEffectList.push({
+								setEffect,
+								setEffectLevel,
+								setEnable
+							});
+						}
+						equipmentSet["setEffect"] = setEffectList;
+					}
 				}
 				
-				if (equipmentData["Element_007"]["value"]["Element_000"] && equipmentData["Element_007"]["value"]["Element_000"]["topStr"].includes("에스더 효과")) {
+				if (equipmentData["Element_007"]["value"]["Element_000"] && equipmentData["Element_007"]["value"]["Element_000"]["topStr"].includes("에스더 효과")) { // 에스더 무기 효과
 					equipmentOption["esther"] = {};
 					const equipmentEstherList = equipmentData["Element_007"]["value"]["Element_000"]["contentStr"];
 					Object.keys(equipmentEstherList).forEach((estherIndex, i) => {
@@ -613,6 +702,7 @@ api.get("/equipment", async (ctx) => {
 					level: equipmentLevel,
 					quality: equipmentQuality,
 					option: equipmentOption,
+					set: equipmentSet,
 					image: equipmentImage
 				});
 				
@@ -665,7 +755,6 @@ api.get("/equipment", async (ctx) => {
 			}
 			
 			if (equipmentData["Element_004"]["value"]["Element_000"].includes("기본 효과")) { // 반지, 귀걸이, 목걸이
-				log(equipmentName);
 				equipmentOption["basic"] = {};
 				const equipmentBasicList = equipmentData["Element_004"]["value"]["Element_001"].split("<BR>");
 				for (let i = 0; equipmentBasicList.length > i; i++) {
@@ -690,10 +779,15 @@ api.get("/equipment", async (ctx) => {
 				const equipmentEngravingEffectList = equipmentData["Element_006"]["value"]["Element_001"].split("<BR>");
 				equipmentEngravingEffectList.forEach((v, i) => {
 					equipmentOption["engraving Effects"][i] = {};
+					let isReduced = false;
+					if (v.includes("FE2E2E")) {
+						isReduced = true;
+					}
 					const name = v.replace(/(<([^>]+)>)/gi, "").split("+")[0];
 					const value = v.replace(/(<([^>]+)>)/gi, "").split("+")[1];
 					equipmentOption["engraving Effects"][i]["name"] = name;
 					equipmentOption["engraving Effects"][i]["value"] = value;
+					equipmentOption["engraving Effects"][i]["isReduced"] = isReduced;
 				});
 			}
 
